@@ -1,10 +1,10 @@
 {
     "builds": [{
-        "src": "deploy_demo/wsgi.py",
+        "src": "Famous_Food_Finder/wsgi.py",
         "use": "@vercel/python"
     }],
     "routes": [{
         "src": "/(.*)",
-        "dest": "deploy_demo/wsgi.py"
+        "dest": "Famous_Food_Finder/wsgi.py"
     }]
 }
