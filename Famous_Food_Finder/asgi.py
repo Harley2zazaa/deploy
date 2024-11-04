@@ -1,16 +1,16 @@
 """
-ASGI config for deploy_demo project.
+ASGI config for Famous_Food_Finder project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
+https://docs.djangoproject.com/en/5.1/howto/deployment/asgi/
 """
 
 import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'deploy_demo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Famous_Food_Finder.settings')
 
 application = get_asgi_application()
